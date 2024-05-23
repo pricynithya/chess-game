@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  h1{
+    text-align: center;
+
+  }
+.board {
+    display: grid;
+    grid-template-columns: repeat(8, 50px);
+    grid-template-rows: repeat(8, 50px);
+    justify-content: center;
+  }
+  
+  .square {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .dark {
+    background-color: #4dbde3;
+  }
+  
+  .light {
+    background-color: #e927df;
+  }
+  
+  .piece {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+  }
+  
+  .black {
+    color: rgb(76, 234, 41);
+  }
+  
+  .white {
+    color: white;
+  }
+  
